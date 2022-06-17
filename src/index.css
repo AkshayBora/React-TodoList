@@ -15,6 +15,7 @@ body {
   background-image: url(../public/wallpaper.jpg);
   background-size: cover;
 	background-position: center; 
+  background-attachment: fixed;
 
 }
 .todo-app {
@@ -168,9 +169,10 @@ h1 {
   text-decoration: none;
   text-transform: uppercase;
   width: 100%;
-  margin-left: 20%;
-  margin-top: 10px;
+  margin-left: 30px;
+  margin-top: 16px;
   margin-bottom: 48px;
+  padding: 5px;
   color: white;
   background: linear-gradient( 90deg, rgba(93, 12, 255, 1) 0%, rgba(155, 0, 250, 1) 100% );
 }
